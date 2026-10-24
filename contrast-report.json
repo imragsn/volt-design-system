@@ -1,0 +1,90 @@
+{
+  "method": "WCAG sRGB relative luminance",
+  "approvedTextPairs": [
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 18.867,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 18.867,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "ink",
+      "background": "electric",
+      "ratio": 15.763,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "ink",
+      "background": "wash",
+      "ratio": 17.582,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "muted",
+      "background": "paper",
+      "ratio": 6.727,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "muted",
+      "background": "wash",
+      "ratio": 6.269,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "positive",
+      "background": "paper",
+      "ratio": 7.61,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "warning",
+      "background": "paper",
+      "ratio": 7.21,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "negative",
+      "background": "paper",
+      "ratio": 7.024,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "info",
+      "background": "paper",
+      "ratio": 7.26,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "positive",
+      "ratio": 7.61,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "warning",
+      "ratio": 7.21,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "negative",
+      "ratio": 7.024,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "info",
+      "ratio": 7.26,
+      "normalTextAA": true
+    }
+  ],
+  "excluded": "Electric/paper and decorative line/paper are not approved for text or unoutlined meaningful marks."
+}
