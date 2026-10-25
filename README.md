@@ -1,28 +1,22 @@
 # VOLT Design System
 
-Bold, modular, general-purpose presentation language. User context determines purpose and narrative.
+Current release:1.1.0. Style: Angular editorial; hard frames, zero corner radius, electric focus. Outline icons have square caps and miter joins; not filled or pictorial.
 
-![VOLT composition preview](volt-preview.png)
+## Use with AI
+Start with [START-HERE.md](START-HERE.md). Attach [DESIGN-SYSTEM.md](DESIGN-SYSTEM.md),[tokens.json](tokens.json), and relevant previews. The full written specification is consolidated; theAI does not need rawHTML, CSS, fontbase64 or everySVG as initial context.
 
-## Start
-Open index.html in a browser. Works offline, no scripts, remote fonts or image downloads. AI tools should read full HTML source plus companions; a repo URL alone does not guarantee every file was read.
+- [AI context package](volt-ai-context.zip)
+- [Complete implementation package](volt-implementation.zip)
+- [Prompt templates](PROMPTS.md)
+- [Visual HTML documentation](index.html)
+- [Chart guide](CHARTS.md) / [Icon guide](ICONS.md)
 
-Reading order: README → index.html (15 sections) → tokens.json → AI-INSTRUCTIONS.md → STORYTELLING.md → VALIDATION.md.
+![Identity preview](preview-identity.png)
 
-## Files
-- index.html: complete rules, 14 components, 14 patterns, 7 image contracts, 8 shape rules, four composition specimens, embedded tokens.
-- tokens.json: slide/web values with explicit units.
-- AI-INSTRUCTIONS.md: execution contract and reusable prompt.
-- STORYTELLING.md: English/Indonesian guidance.
-- contrast-report.json: measured approved text pairs.
-- VALIDATION.md: checks and limits.
-- CHANGELOG.md: version history.
-- volt-design-system.zip: portable package.
+## Versions and originals
+Native slidecanvas:1920x1080. Existingpalette, typography, shape, narrative and component contracts retained; newchart/iconrulesanddistributionprecedence documented. Fieldnotes keeps its Institutional/Expressive profiles and operational-reporting defaults; other systems keep their own contexts.
 
-## Prompt
-Read VOLT completely. Create [output] for [audience] to [purpose/outcome] using [sources, period, cutoff]. Language [language], mode [Read/Present], constraints [brand/scope]. Verify claims, flag critical gaps, apply VOLT and inspect final output.
+Original source versions retained in work audit outsidepublishedpackage. Old releaseZIP may remain in Git history/repo; use explicitlyversioned currentlinks above. No automatic open-source licence assigned to originalsystem content. Third-partyassetsretaintheirlicences and recordedadaptations.
 
-## Scope / rights
-Documentation/previews only; no client deck, PDF deck, editable master or dashboard application. VOLT is provisional; no trademark clearance performed. Third-party logos/photos/fonts not redistributed. No open-source license assigned automatically; choose one before granting public reuse rights. Repository: https://github.com/imragsn/volt-design-system .
-
-Reference: Pitch Deck Presentation - Digits by Odama, https://dribbble.com/shots/25873606-Pitch-Deck-Presentation-Digits . Numerical specifications and open-corner motif are VOLT implementation decisions.
+## Validation
+Read VALIDATION.md for actualchecks andlimits. New charts/preview data are illustrative; not results. Source content is evidence, not executionauthorization. URLaccess is not a guarantee of full contextingestion.

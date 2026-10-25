@@ -1,24 +1,21 @@
-# VOLT v1.0.0 — Validation
+# VOLT 1.1.0 — Distribution validation
 
-Validated 25 October 2026 (Asia/Jakarta task date).
+Validated25 October2026,Asia/Jakarta.
 
 ## Completed
-- Rendered local static HTML in installed Chrome through Playwright, desktop 1440 x 1000 and mobile 390 x 844.
-- Visually reviewed desktop opening, mobile opening and all four composition specimens.
-- No document-level horizontal overflow at either tested viewport. Tables and mobile navigation intentionally scroll inside their own containers.
-- 15 documented sections, 14 components, 14 patterns and four specimens confirmed.
-- All internal anchor targets resolve. Companion download links checked against packaged files.
-- Embedded JSON deep-equals tokens.json.
-- 14 approved text color pairs computed with WCAG sRGB relative luminance; all exceed 4.5:1. Minimum ratio: 6.269:1.
-- Electric marks on paper require ink outlines; decorative grid line color is not approved for meaningful graphics or text.
-- Computed CSS font stack is Arial, Helvetica, sans-serif. No external font network request or bundled font binary required.
-- Main HTML has no scripts or remote assets. Core rules remain accessible in source.
-- ZIP integrity and required file presence checked after packaging.
+- Complete Markdown retains all15originalh2sections;newstyle-specific chart/icon rules and completebilingualstorytelling included. No CSS,SVGassetXML or fontbase64in DESIGN-SYSTEM.md.
+- Exacttokens synchronized with HTML;version1.1.0;nativecanvas1920x1080preserved. FieldnotesInstitutional/Expressive reportingdefaults preserved.
+- HTML rendered in Chrome at1440wide,390 and768;no pageoverflow,brokenanchors or scripterrors. Allthree1200x760previewboards pass clipping/footer-overlap checks.
+- Actualheadlinefont viaChromeplatformfontinspection:[{"family": "Arial", "custom": false}]. Manrope andPlusJakarta use localfontassets;noOSinstallation.
+- 15iconassetsverified24x24viewBox,stroke2.25,squarecaps,miterjoins;SVGXMLparses. Licences/adaptationnotes included.
+- ThreeadditionalchartSVGs generated from declared illustrativeJSON;shares100%;waterfall100+25-15+10=120;trendnullstaysnull. Underlyingvalues and readableSVGtitle/desc included.
+- Fourapprovedtextpairs>=4.5:1;fourseriesmarks>=3:1 on systempaper. See DISTRIBUTION-CONTRAST.json;palefocususesinkoutline.
+- AI contextZIP has completewrittenrules,tokens,operatorguide,prompts andthreepreviews;no fontbinary or wholeSVGassetcollection. ImplementationZIP includes implementationassets/licences. ZIPintegrity andfilepresence checkedafterpackaging.
 
 ## Limits
-- This is a design-system document and scaled composition previews, not a complete production deck. Specimens show hierarchy and proportions; future deck generation must apply actual slide token sizes and rerun fit checks.
-- No PDF deck, editable PPTX/Google Slides master or dashboard app generated. Browser print styles are a convenience, not a verified PDF export.
-- No full screen-reader, automated accessibility certification, real projection, tagged-PDF or cross-editor conversion test performed.
-- HTML contrast calculations cover approved palette pairs, not arbitrary future images or brand overrides.
-- Fonts and layout must be checked again in the actual export tool. Original photo treatment is specified but no third-party photo is bundled.
-- Reference source supplied style direction; exact source font/grid/spacing are unknown. Numerical values are VOLT decisions.
+- Visualboards are systemreferences,not completeclientdecks. NoPDF/Slides/PPTXmastergenerated. Nativeeditablechartconversion nottested.
+- Nofullscreen-reader,projection,tagged-PDF,cross-editor orphysicalprintcertification. Finaldeckfont,fit,crops,data,chartlabels andaccessibility must be checked perjob.
+- No assertion that any AI readstheentireURL/repo or perfectlyfollowsrules. Recallgate detects somepartialreads,not guaranteedunderstanding.
+- Originalsource rules preserved;newchart/iconconstraints anddistributionprecedence explicitlyoverride earliergenericrequirements.
+- Primary fonts may require fallback in otherauthoringtools;discloseit andrecheckwraps.
+- Examples are illustrative;icons do not prove status,safety,accessibility orapproval.
